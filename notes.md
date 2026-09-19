@@ -5,7 +5,7 @@ https://d2l.smola.org/chapter_convolutional-neural-networks/
 
 https://www.youtube.com/watch?v=KuXjwB4LzSA
 
-https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=7
+https://www.youtube.com/watch?v=tIeHLnjs5U8
 
 https://deadbeef.io/cnn_from_scratch
 
