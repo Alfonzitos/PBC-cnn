@@ -1,0 +1,13 @@
+build/
+cropped/
+3DPartyLibs/
+.vscode/
+
+
+validation/
+
+vcpkg.json
+
+src/main.py
+
+results.txt

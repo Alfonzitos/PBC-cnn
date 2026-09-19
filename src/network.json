@@ -1,0 +1,99 @@
+{
+    "InitialInputSize": {
+        "c": 3,
+        "x": 360,
+        "y": 363
+    },
+    "Layers": [
+        {
+            "LayerType": "Convolutional",
+            "FilterCount": 16,
+            "Stride": 1,
+            "PaddingX": 1,
+            "PaddingY": 1,
+            "FilterSize": {
+                "x": 3,
+                "y": 3
+            },
+            "FilterPath": "training/filterPath1.bin",
+            "BiasPath": "training/biasPath1.bin",
+            "Padding": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        {
+            "LayerType": "Max Pooling",
+            "Stride": 2,
+            "WindowSize": {
+                "x": 2,
+                "y": 2
+            }
+        },
+        {
+            "LayerType": "Convolutional",
+            "FilterCount": 32,
+            "Stride": 1,
+            "PaddingX": 1,
+            "PaddingY": 1,
+            "FilterSize": {
+                "x": 3,
+                "y": 3
+            },
+            "FilterPath": "training/filterPath2.bin",
+            "BiasPath": "training/biasPath2.bin",
+            "Padding": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        {
+            "LayerType": "Max Pooling",
+            "Stride": 2,
+            "WindowSize": {
+                "x": 2,
+                "y": 2
+            }
+        },
+        {
+            "LayerType": "Convolutional",
+            "FilterCount": 64,
+            "Stride": 1,
+            "PaddingX": 1,
+            "PaddingY": 1,
+            "FilterSize": {
+                "x": 3,
+                "y": 3
+            },
+            "FilterPath": "training/filterPath3.bin",
+            "BiasPath": "training/biasPath3.bin",
+            "Padding": {
+                "x": 1,
+                "y": 1
+            }
+        },
+        {
+            "LayerType": "Max Pooling",
+            "Stride": 2,
+            "WindowSize": {
+                "x": 2,
+                "y": 2
+            }
+        },
+        {
+            "LayerType": "Global Average Pooling"
+        },
+        {
+            "LayerType": "Dense",
+            "numNeurons": 64,
+            "WeightsPath": "training/weightPath4.bin",
+            "BiasPath": "training/biasPath4.bin"
+        },
+        {
+            "LayerType": "Output",
+            "numNeurons": 8,
+            "WeightsPath": "training/weightPath5.bin",
+            "BiasPath": "training/biasPath5.bin"
+        }
+    ]
+}
