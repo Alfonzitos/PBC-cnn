@@ -36,3 +36,7 @@ The confusion matrix below gives insights into what the model thinks each actual
 | monocyte         | 3        | 0          | 0            | 24  | 0          | 186      | 0          | 0        |
 | neutrophil       | 1        | 1          | 2            | 26  | 3          | 0        | 466        | 0        |
 | platelet         | 0        | 0          | 6            | 0   | 0          | 0        | 0          | 346      |
+
+
+## Resources
+Non-exhaustive list of resources can be found in notes.md
